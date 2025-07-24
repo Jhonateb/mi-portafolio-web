@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí - Jhonatan Tebalan</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold text-gray-800">
+                Jhonatan Tebalan
+            </a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="text-gray-600 hover:text-blue-600">Inicio</a>
+                <a href="sobre-mi.html" class="text-gray-600 hover:text-blue-600">Sobre Mí</a>
+                <a href="portafolio.html" class="text-gray-600 hover:text-blue-600">Portafolio</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-800 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto py-12 md:py-20 px-6">
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
+
+        <div class="md:col-span-2">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                Sobre Mí
+            </h1>
+            
+            <p class="text-gray-700 text-lg mb-8 leading-relaxed">
+                Soy estudiante del décimo ciclo de Ingeniería en Sistemas, con una fascinación innata por la electrónica y por comprender el funcionamiento interno de la tecnología que nos rodea. Mi curiosidad me impulsa a explorar cómo las soluciones de software y hardware interactúan para transformar nuestro mundo. Mi objetivo profesional es aplicar mis conocimientos para contribuir a proyectos tecnológicos de gran escala que aporten un valor significativo y resuelvan problemas complejos.
+            </p>
+
+            <h2 class="text-2xl font-bold text-gray-800 mt-10 mb-4">Intereses</h2>
+            <p class="text-gray-700 mb-8 leading-relaxed">
+                Además de la ingeniería, me interesa profundamente la mecánica y la física desde la perspectiva teórica. Me fascina analizar los principios y leyes que gobiernan el mundo físico y cómo estos conceptos se pueden relacionar con el desarrollo de sistemas eficientes en el mundo digital.
+            </p>
+
+            <h2 class="text-2xl font-bold text-gray-800 mt-10 mb-4">Habilidades Técnicas</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-blue-700">Fundamentos Sólidos</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-600">
+                        <li>Lógica de Programación</li>
+                        <li>Estructuras de Datos y Algoritmos</li>
+                        <li>Ingeniería de Software</li>
+                        <li>Bases de Datos</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-3 text-blue-700">Actualmente Aprendiendo</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-600">
+                        <li>HTML5 Semántico</li>
+                        <li>CSS3 con Tailwind CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git y GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="md:col-span-1 flex justify-center mt-8 md:mt-0">
+            <div class="w-48 h-48 md:w-64 md:h-64 bg-gray-300 rounded-full flex items-center justify-center text-center p-4 shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <span class="text-gray-500 font-medium">Espacio para mi foto</span>
+            </div>
+        </div>
+
+    </div>
+</main>
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 Jhonatan Tebalan. Todos los derechos reservados.</p>
+        <p>Sitio diseñado con <span class="text-teal-400">Tailwind CSS</span>.</p>
+    </footer>
+    </body>
+</html>
