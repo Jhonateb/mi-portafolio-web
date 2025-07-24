@@ -37,4 +37,3 @@ El proyecto fue construido utilizando las siguientes tecnologías:
 ## 👤 Contacto
 
 * **GitHub:** [Jhonateb](https://github.com/Jhonateb)
-* **LinkedIn:** (Puedes añadir tu enlace aquí cuando lo tengas)
